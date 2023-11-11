@@ -1,0 +1,355 @@
+<html>
+  <style>
+      @import url('https://fonts.cdnfonts.com/css/bad-script-2');
+      @import url('https://fonts.cdnfonts.com/css/babylonica');
+      .background,.first_image,.text_name,.first_price,.halal_1,.halal_2,.halal_3,.halal_4,.menu_text,.menu_image_crab,.menu_image_cheetah,.menu_image_capybara,.menu_image_hippo,.menu_image_icecream,.menu_crab_text,.menu_cheetah_text,.menu_capybara_text,.menu_hippo_text,.drinks_text,.drinks_water_image,.drinks_fruits_image,.drinks_chocolate_image,.drinks_tea_image,.drinks_vine_image,.drinks_vine_background,.drinks_water_text,.drinks_fruits_text,.drinks_chocolate_text,.drinks_tea_text,.drinks_vine_text,.woman_cook,.cooks_name,.cooks_info,.footer_place,.footer_time,.footer_social,.footer_contacts,.footer_place_text,.footer_time_text,.footer_contacts_number,.footer_contacts_email,.footer_social_insta,.footer_social_facebook,.footer_social_facebook_background{
+          position:absolute;
+      }
+    .background {
+        z-index: 0;
+        top: 0;
+        left: 0;
+        width: 1923px;
+        height: 4537px;
+        background: black
+    }
+    .first_image {
+      top: 426px;
+      left: 538px;
+      z-index: 1;
+      width: 926px;
+      height: 733px;
+    }
+
+    .text_name {
+      top: -61px;
+      left: 676px;
+      z-index: 2;
+      width: 649px;
+      height: 282px;
+      color: white;
+      font-size: 250px;
+      font-family: Babylonica;
+    }
+    .first_price {
+        width: 469px;
+        height: 208px;
+        color: white;
+        font-size: 180px;
+        font-family: Babylonica;
+        z-index: 2;
+        top: 354px;
+        left:776px;
+        }
+
+
+ .halal_1,.halal_2,.halal_3,.halal_4 {
+        width: 150px;
+        height: 131px;
+        left: 1757px;
+    }
+    .halal_1 {
+        top: 10px;
+    }
+    .halal_2 {
+        top: 1079px;
+    }
+    .halal_3 {
+        top: 2106px;
+    }
+    .halal_4 {
+        top: 4112px;
+    }
+
+    .menu_text{
+        width: 333px;
+        height: 180px;
+        color: white;
+        font-size: 130px;
+        font-family: Bad Script;
+        top: 1053px;
+        left: 844px;
+        z-index:2;
+    }
+
+
+    .menu_image_crab,.menu_image_cheetah,.menu_image_capybara,.menu_image_hippo{
+            width: 1176px;
+            height: 90px;
+            left: 23px;
+            object-fit: cover
+    }
+    .menu_image_crab{
+            top: 1279px;
+    }   
+    .menu_image_cheetah{
+            top: 1369px;
+    }   
+    .menu_image_capybara{
+            top: 1459px;
+    }
+    .menu_image_hippo{
+        top: 1549px;
+    }
+
+
+    .menu_image_icecream{
+        width: 1885px; 
+        height: 448px;
+        top: 1649px;
+        left: 22px;
+        object-fit: cover;
+    }
+    
+    .menu_crab_text,.menu_cheetah_text,.menu_capybara_text,.menu_hippo_text{
+        width: 1220px;
+        height: 95px;
+        color: white;
+        font-size: 70px; 
+        font-family: Bad Script;
+        left:36px;
+        white-space: pre;
+
+    }
+    .menu_crab_text{
+        top:1271px;
+    }
+    .menu_cheetah_text{
+        top: 1361px;
+    }
+    .menu_capybara_text{
+        top: 1451px;
+    }
+    .menu_hippo_text{
+        top: 1541px;
+    }
+
+
+    .drinks_text {
+        width: 472px; 
+        height: 180px; 
+        color: white; 
+        font-size: 130px; 
+        font-family: Bad Script;
+        left: 711px;
+        top: 2075px;
+
+    }
+
+    .drinks_water_image,.drinks_fruits_image,.drinks_chocolate_image,.drinks_tea_image,.drinks_vine_image{
+        left: 73px;
+        object-fit: cover;
+        width: 924px;
+        height: 140px;
+    }
+    .drinks_water_image{
+        top: 2313px;
+    }
+    .drinks_fruits_image{
+        top: 2453px;
+    }
+    .drinks_chocolate_image{
+        top: 2593px;
+    }
+    .drinks_tea_image{
+        top: 2733px;
+    }
+    .drinks_vine_image{
+        top: 2873px;
+    }
+    .drinks_vine_background{
+        width: 914px; 
+        height: 700px;
+        object-fit: cover;
+        left: 993px;
+        top: 2313px;
+    }
+.drinks_water_text,.drinks_fruits_text,.drinks_chocolate_text,.drinks_tea_text,.drinks_vine_text{
+    width: 924px; 
+    height: 180px; 
+    color: white; 
+    font-size: 70px; 
+    font-family: Bad Script; 
+    font-weight: 400;
+    left: 75px;
+    white-space: pre;
+}
+.drinks_water_text{
+    top: 2340px;
+}
+.drinks_fruits_text{
+    top: 2480px;
+}
+.drinks_chocolate_text{
+    top: 2620px;
+}
+.drinks_tea_text{
+    top: 2760px;
+}
+.drinks_vine_text{
+    top: 2900px;
+}
+
+
+.woman_cook{
+    width: 923px; 
+    height: 980px;
+    left: 70px;
+    top: 3094px;
+    object-fit: cover;
+}
+.cooks_name{
+    left: 1147px;
+    top: 3094px;
+    width: 800px; 
+    height: 180px; 
+    color: white; 
+    font-size: 100px; 
+    font-family: Bad Script; 
+}
+.cooks_info{
+    width: 787px; 
+    height: 610px; 
+    color: white; 
+    font-size: 70px; 
+    font-family: Bad Script;
+    left: 1079px;
+    top: 3279px;
+    
+}
+
+.footer_place,.footer_time,.footer_social,.footer_contacts{
+    width: 204px; 
+    height: 105px; 
+    color: white; 
+    font-size: 80px; 
+    font-family: Bad Script;
+    top:4136px
+}
+.footer_place{
+    left:47px;
+}
+.footer_time{
+    left:462px;
+}
+.footer_social{
+    left:830px;
+}
+.footer_contacts{
+    left:1316px;
+}
+
+.footer_place_text,.footer_time_text,.footer_contacts_number{
+    width: 342px; 
+    height: 105px; 
+    color: white; 
+    font-size: 60px; 
+    font-family: Bad Script;
+    top: 4279px;
+}
+.footer_place_text{
+    left:47px;
+}
+.footer_time_text{
+    left:391px;
+}
+.footer_contacts_number{
+    left:1221px;
+    width: 440px;
+}   
+.footer_contacts_email{
+    width: 566px; 
+    height: 105px; 
+    color: white; 
+    font-size: 60px; 
+    font-family: Bad Script;
+    top: 4404px;
+    left: 1207px;
+}
+.footer_social_insta,.footer_social_facebook,.footer_social_facebook_background{
+    left:897px;
+    width: 129px; 
+    height: 145px
+}
+.footer_social_insta{
+    top: 4259px;
+}
+.footer_social_facebook,.footer_social_facebook_background{
+    top:4406px;
+}
+.footer_social_facebook{
+    z-index: 1;
+    width: 160px;
+    height:160px;
+    top:4390px;
+    left: 887px;
+}
+.footer_social_facebook_background{
+    width: 50px;
+    height: 110px;
+    left: 940px;
+    top:4416px;
+    
+}
+</style>
+
+
+  
+  <img class="first_image"  src="https://podacha-blud.com/uploads/posts/2022-10/thumbs/1666417043_55-podacha-blud-com-p-menyu-restoranov-s-foto-blyud-steik-salat-60.jpg" />
+  <div class="text_name">Negrum</div>
+  <div class = "background"></div>
+  <div class = "first_price">1000$</div>
+  <img class = "halal_1"  src="https://cdn1.ozone.ru/s3/multimedia-i/6324468270.jpg" />
+  <img class = "halal_2"  src="https://cdn1.ozone.ru/s3/multimedia-i/6324468270.jpg" />
+  <img class = "halal_3"  src="https://cdn1.ozone.ru/s3/multimedia-i/6324468270.jpg" />
+  <img class = "halal_4"  src="https://cdn1.ozone.ru/s3/multimedia-i/6324468270.jpg" />
+
+  <div class  = "menu_text" >Меню</div>
+  <img class = "menu_image_crab" src="https://galt.selhozproduct.ru/upload/usl/f_610ef962c6e54.jpg" />
+  <img class = "menu_image_cheetah" src="https://fikiwiki.com/uploads/posts/2022-02/1644818361_6-fikiwiki-com-p-gepardi-krasivie-kartinki-7.jpg" />
+  <img class = "menu_image_capybara" src="https://petstime.ru/wp-content/uploads/2023/04/word-image-13637-10.jpeg" />
+  <img class = "menu_image_hippo" src ="https://cdn.fishki.net/upload/post/2020/07/22/3375951/6815a62471cb767d67eda154d0f6118b.jpg" />
+  <img class = "menu_image_icecream" src="https://s1.1zoom.ru/big3/358/Sweets_Ice_cream_Powidl_Black_background_Balls_527369_5202x3744.jpg" />
+
+  <div class = "menu_crab_text">Краб позолоченный обычный       1300$</div>
+  <div class = "menu_cheetah_text" >Гепард в шоколаде                 1000$</div>
+  <div class = "menu_capybara_text" >Голова капибары запечёная         800$</div>
+  <div class = "menu_hippo_text" >Бегемот варёный полуживой        1500$</div>
+
+
+  <div class = "drinks_text" style="width: 472px; height: 180px; color: white; font-size: 130px; font-family: Bad Script;">Напитки</div>
+
+  <img class = "drinks_water_image"  src="https://vodaplus.ru/upload/resize_cache/webp/upload/iblock/91f/47tmsk4yg94rwt7juv20htxf06gv75nr.webp" />
+  <img class = "drinks_fruits_image"  src="https://mpmo.ru/content/2020/12/frukty-scaled.jpg" />
+  <img class = "drinks_chocolate_image"  src="https://images.techinsider.ru/upload/img_cache/35a/35afe5ef5085dbc27e576a0e34b3982e_ce_1500x1000x0x0_cropped_666x444.jpg" />
+  <img class = "drinks_tea_image"  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWI334Mt8jwb3Bb5-0HlKk4MCR2_dlhHV0wg&usqp=CAU" />
+  <img class = "drinks_vine_image"  src="https://www.neoldu.com/d/other/yillanmis-sarap-neden-daha-iyidir-001.webp" />
+
+  <img class = "drinks_vine_background" src="https://www.vintage-m.ru/blog/wp-content/uploads/2020/04/4adda65483e19aab0260870e121841c3-1024x682.jpg" />
+
+  <div class = "drinks_water_text">Вода чистейшая горная    100$</div>
+  <div class = "drinks_fruits_text">Сок фруктовый            200$</div>
+  <div class = "drinks_chocolate_text">Горячий шоколад           200$</div>
+  <div class = "drinks_tea_text">Чай "Китайский дракон"    200$</div>
+  <div class = "drinks_vine_text">Вино краснейшее          666$</div>
+
+
+  <img class = "woman_cook"  src="https://s1.1zoom.ru/big3/6/Dessert_Cook_Uniform_Glance_Plate_512057_3000x2000.jpg" />
+  <div class = "cooks_name" >Эмилия Бонапарт</div>
+  <div class = "cooks_info" >Наш высококлассный повар. Проходил обучение во франции более 4 раз</div>
+
+  <div class = "footer_place" >Место</div>
+  <div class = "footer_time" >Время</div>
+  <div class = "footer_social" >Соцсети</div>
+  <div class = "footer_contacts" >Контакты</div>
+
+  <div class = "footer_place_text" >Улица Пушкина</div>
+  <div class = "footer_time_text" >00:00 - 23:59</div>
+  <div class = "footer_contacts_number" >+7 800 555  35  35</div>
+
+  <div class = "footer_contacts_email" >restaurant@gmail.com</div>
+
+  <img class = "footer_social_insta"  src="https://i.pinimg.com/originals/7a/93/ed/7a93ed94c495bf0a29bf911dc04581ee.jpg" />
+  <img class = "footer_social_facebook"  src="https://img.icons8.com/ios11/600/000000/facebook-circled.png" />
+  <img class = "footer_social_facebook_background"  src="https://ceramica21.ru/image/cache/catalog/1new_trend/Manhattan_White_WT9MAN00__Plitka_nastennaya0-800x800.jpg" />
+</html>
